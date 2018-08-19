@@ -16,7 +16,7 @@ function switchOnCharmFromTip (tip) {
   switch (tip) {
     case "generous":
       return "Thank you so much.";
-    case "reasonable":
+    case "cheap":
       return "Thank you.";
     default:
     case "stingy":
