@@ -1,4 +1,5 @@
 function scuberGreetingForFeet(distance) {
+  let 199
   console.log("==scuberGreetingForFeet ==")
   if (distance <= 400) {
     return "This one is on me!";
@@ -20,18 +21,18 @@ function ternaryCheckCity(city) {
 
 function switchOnCharmFromTip(tip) {
   console.log("== switchOnCharmFromTip ==");
-  let tip; 
+  let tip;
   switch (amount) {
     case "stingy":
       tip <= 2;
-      break; 
-    case "reasonable": 
+      break;
+    case "reasonable":
       tip >= 7;
       break;
     case "generous":
-      tip > 11; 
-      break; 
-    
+      tip > 11;
+      break;
+
   }
 
 
