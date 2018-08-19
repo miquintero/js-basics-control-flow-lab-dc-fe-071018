@@ -8,9 +8,8 @@ function scuberGreetingForFeet (feet) {
   }
 }
 
-function ternaryCheckCity(city) {
-  let destination = city === "NYC" ? "Ok, sounds good." : "No, go."
-  return destination;
+function ternaryCheckCity (city) {
+  return city === "NYC" ? "Ok, sounds good." : "No, go.";
 }
 
 function switchOnCharmFromTip(tip) {
